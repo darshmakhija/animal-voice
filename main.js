@@ -3,7 +3,7 @@ function startClassification()
    navigator.mediaDevices.getUserMedia({
        audio:true
 });
-classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/Gn8xvNsEB//model.json', modelReady);
+classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/Gn8xvNsEB/model.json', modelReady);
 }
 
 function modelReady(){
